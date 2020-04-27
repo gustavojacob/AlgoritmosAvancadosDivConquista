@@ -1,3 +1,6 @@
+
+//Exercicio 1
+
 import java.io.*;
 import java.util.*;
 import java.lang.*;
@@ -61,14 +64,14 @@ class MergeSort {
         int[] numbers = new int[10];
         for (int i = 0; i < 10; i++) {
             numbers[i] = (int) (1 + (Math.random() * 100));
-            ;
+            
         }
 
-        int len = 9;
+        int len = 10;
         System.out.println("MergeSort By Recursive Method");
         MergeSort_Recursive(numbers, 0, len - 1);
 
-        for (int i = 0; i < 9; i++)
+        for (int i = 0; i < len; i++)
 
             System.out.println(numbers[i]);
 
