@@ -5,13 +5,13 @@ public class MaiorValor {
 
     public static void main(String[] args) {
 
-        int[] numbers = new int[10];
-        for (int i = 0; i < 10; i++) {
-            numbers[i] = (int) (1 + (Math.random() * 100));
+        int[] numbers = new int[2048];
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = (int) (1 + (Math.random() * 2048));
 
         }
 
-        for (int i = 0; i < 9; i++)
+        for (int i = 0; i < numbers.length; i++)
 
             System.out.println(numbers[i]);
 
