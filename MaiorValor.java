@@ -1,19 +1,19 @@
 //Exercicio 2
-
+//start = System.nanoTime() contabilizar tempo 
 
 public class MaiorValor {
 
     public static void main(String[] args) {
 
-        int[] numbers = new int[2048];
+        int[] numbers = new int[1048576];
         for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = (int) (1 + (Math.random() * 2048));
+            numbers[i] = (int) (1 + (Math.random() * 1048576));
 
         }
 
-        for (int i = 0; i < numbers.length; i++)
+       // for (int i = 0; i < numbers.length; i++)
 
-            System.out.println(numbers[i]);
+            //System.out.println(numbers[i]);
 
         maxVal1(numbers, numbers.length);
 
