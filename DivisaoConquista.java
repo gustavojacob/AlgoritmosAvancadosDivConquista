@@ -19,11 +19,11 @@ public class DivisaoConquista {
     public static void main(String[] args) {
 
         int init = 0;
-        int n = 32;
+        int n = 2048;
         int numbers[] = new int[n];
 
         for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = (int) (1 + (Math.random() * n));
+            numbers[i] = (int) (1 + (Math.random() * n + 1));
             System.out.println(numbers[i]);
         }
 
